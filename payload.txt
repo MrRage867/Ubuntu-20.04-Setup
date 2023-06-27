@@ -1,0 +1,1 @@
+wget "https://raw.githubusercontent.com/MrRage867/Ubuntu-20.04-Setup/main/setup.sh" && bash setup.sh
