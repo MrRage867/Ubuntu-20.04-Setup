@@ -30,6 +30,7 @@ apt install nano -y
 apt install curl -y
 apt install wget -y
 apt install iptables -y
+apt install qj -y
 echo "* soft     nproc          65535" >> /etc/security/limits.conf
 echo "* hard     nproc          65535" >> /etc/security/limits.conf
 echo "* soft     nofile         65535" >> /etc/security/limits.conf
@@ -38,10 +39,10 @@ echo "root soft     nproc          65535" >> /etc/security/limits.conf
 echo "root hard     nproc          65535" >> /etc/security/limits.conf
 echo "root soft     nofile         65535" >> /etc/security/limits.conf
 echo "root hard     nofile         65535" >> /etc/security/limits.conf
-curl "https://raw.githubusercontent.com/MrRage867/Ubuntu-20.04-Setup/main/block.sh" -o block.sh
+wget "https://raw.githubusercontent.com/MrRage867/Ubuntu-20.04-Setup/main/block.sh" -O block.sh
 bash block.sh
 cd /usr/bin
-curl "https://github.com/MrRage867/Ubuntu-20.04-Setup/raw/main/speedtest" -o speedtest
+wget "https://github.com/MrRage867/Ubuntu-20.04-Setup/raw/main/speedtest" -O speedtest
 chmod +x speedtest
 cd /root
 rm -rf setup.sh
