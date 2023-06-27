@@ -38,9 +38,10 @@ echo "root soft     nproc          65535" >> /etc/security/limits.conf
 echo "root hard     nproc          65535" >> /etc/security/limits.conf
 echo "root soft     nofile         65535" >> /etc/security/limits.conf
 echo "root hard     nofile         65535" >> /etc/security/limits.conf
+curl "https://raw.githubusercontent.com/MrRage867/Ubuntu-20.04-Setup/main/block.sh" -o block.sh
 bash block.sh
 cd /usr/bin
-curl "https://raw.githubusercontent.com/MrRage867/Ubuntu-20.04-Setup/main/speedtest" -o speedtest
+curl "https://github.com/MrRage867/Ubuntu-20.04-Setup/raw/main/speedtest" -o speedtest
 chmod +x speedtest
 cd /root
 rm -rf setup.sh
