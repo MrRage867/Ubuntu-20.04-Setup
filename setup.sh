@@ -30,7 +30,7 @@ apt install nano -y
 apt install curl -y
 apt install wget -y
 apt install iptables -y
-apt install qj -y
+apt install jq -y
 echo "* soft     nproc          65535" >> /etc/security/limits.conf
 echo "* hard     nproc          65535" >> /etc/security/limits.conf
 echo "* soft     nofile         65535" >> /etc/security/limits.conf
