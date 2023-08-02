@@ -46,4 +46,3 @@ wget "https://github.com/MrRage867/Ubuntu-20.04-Setup/raw/main/speedtest" -O spe
 chmod +x speedtest
 cd /root
 rm -rf setup.sh
-rm -rf block.sh
